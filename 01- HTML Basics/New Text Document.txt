@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <! DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -18,4 +19,26 @@ It's cool!
 </p>
 
 </body>
+=======
+<! DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<!-- myFirst.html -->
+
+<title>My not very firt web page!</title>
+</head>
+
+<body>
+
+<h1>This is my first web page</h1>
+
+<p>
+This is not the first web page I've ever made,
+not even with HTML, but you get the point of first project.
+It's cool!
+</p>
+
+</body>
+>>>>>>> 9b4097d359c1104a2420590e30e4c33f675a71d7
 </html>

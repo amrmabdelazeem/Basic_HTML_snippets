@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Defining the external style */
 body{
     background-color: #333300;
@@ -14,4 +15,22 @@ p {
     color: #333300;
     text-align: right;
     border: 3px groove #FFFF33;
+=======
+/* Defining the external style */
+body{
+    background-color: #333300;
+    color: #FFFFFF;
+}
+h1 {
+    color: #FFFF33;
+    text-align: center;
+    font: italic 200% fantasy;
+}
+
+p {
+    background-color: #FFFF33;
+    color: #333300;
+    text-align: right;
+    border: 3px groove #FFFF33;
+>>>>>>> 9b4097d359c1104a2420590e30e4c33f675a71d7
 }

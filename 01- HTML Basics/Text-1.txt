@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,4 +17,24 @@
         <li>Safari</li>
     </ul>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>basicUL.html</title>
+</head>
+
+<body>
+    <h1>Basic Lists</h1>
+    <h2>Common Web Browsers</h2>
+    <ul>
+        <li>Firefox</li>
+        <li>Chrome</li>
+        <li>Internet Explorer</li>
+        <li>Opera</li>
+        <li>Safari</li>
+    </ul>
+</body>
+>>>>>>> 9b4097d359c1104a2420590e30e4c33f675a71d7
 </html>

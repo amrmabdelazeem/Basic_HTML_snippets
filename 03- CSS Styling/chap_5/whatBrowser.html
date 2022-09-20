@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--Using a conditional comment with CSS-->
 <!DOCTYPE html>
 
@@ -25,3 +26,32 @@
     </p>
 </body>
 </html>
+=======
+<!--Using a conditional comment with CSS-->
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>whatBrowser.html</title>
+    <style type="text/css">
+        body {
+            background: yellow;
+            color: blue;
+        }
+    </style>
+    <!--IE only style overrides default -->
+    <!--[if IE]>
+    <style type="text/css">
+        body {
+            background: red;
+            color: yellow;
+        }
+    </style>
+    <![endif]-->
+<body>
+    <p>
+        This page has a red background in IE, and a yellow background in other browsers.
+    </p>
+</body>
+</html>
+>>>>>>> 9b4097d359c1104a2420590e30e4c33f675a71d7
