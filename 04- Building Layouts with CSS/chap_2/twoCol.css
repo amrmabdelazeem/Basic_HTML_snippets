@@ -1,21 +1,24 @@
 
 #head {
-    border: 3px black solid;
+    border-bottom: 3px black double;
+    text-align: center;
 }
 
 #left {
-    border: 3px red solid;
     float: left;
-    width: 20%
+    width: 20%;
+    padding:.2em;
 }
 
 #right {
-    border: 3px blue solid;
+    border-left: 3px grey double;
     float: right;
     width: 75%;
+    padding: .2em;
 }
 
 #footer {
-    border: 3px green solid;
+    border-top: 3px grey double;
+    text-align: center;
     clear: both;
 }
