@@ -1,0 +1,35 @@
+#head {
+    text-align: center;
+    border-bottom: 3px double black;    
+}
+
+#left {
+    float: left;
+    width: 20%;
+    background-color: #EEEEEE;
+    min-height: 30em;
+}
+
+#center {
+    float: left;
+    width: 60%;
+    padding-left: 1%;
+    padding-right: 1%;
+    min-height: 30em;
+}
+
+#right {
+    float: left;
+    background-color: #EEEEEE;
+    padding-left: 1%;
+    width: 17%;
+    min-height: 30em;
+}
+
+#footer {
+    border: 1px black solid;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    background-color: orange;
+}
