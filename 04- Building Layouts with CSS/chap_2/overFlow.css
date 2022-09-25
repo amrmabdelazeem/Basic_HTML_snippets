@@ -1,0 +1,35 @@
+#head {
+    border-bottom: 5px double black;
+    text-align: center;
+}
+
+#left {
+    background-color: #EEEEEE;
+    float: left;
+    width: 20%;
+    padding-left: 1%;
+    height: 30em;
+    overflow: auto;
+}
+
+#center {
+    float: left;
+    padding-left: 1%;
+    width: 60%;
+    height: 30em;
+    overflow: auto;
+}
+#right {
+    background-color: #EEEEEE;
+    float: left;
+    width: 17%;
+    padding-left: 1%;
+    height: 30em;
+    overflow: auto;
+}
+#footer {
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
