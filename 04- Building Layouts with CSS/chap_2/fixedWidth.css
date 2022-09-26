@@ -1,0 +1,36 @@
+
+
+#header {
+    background-color: #e2e393;
+    border-bottom: 3px solid black;
+    text-align: center;
+    width: 800px;
+    padding: 1em;
+}
+
+#left {
+    width: 200px;
+    border-right: solid 1px black;
+    float: left;
+    clear: left;
+    height: 30em;
+    overflow: auto;
+    padding-right: .5em;
+}
+
+#right {
+    width: 570px;
+    border-left: solid 3px black;
+    float: left;
+    height: 30em;
+    overflow: auto;
+    padding-left: .5em;
+}
+
+#footer {
+    clear: both;
+    width: 800px;
+    border-top: solid black 3px;
+    text-align: center;
+    background-color: #e2e393;
+}
