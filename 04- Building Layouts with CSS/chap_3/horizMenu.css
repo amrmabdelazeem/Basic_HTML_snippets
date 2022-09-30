@@ -1,0 +1,35 @@
+#menu ul {
+    margin-left: -2.5em;
+}
+
+#menu li {
+    float: left;
+    border: 1px black solid;
+    width: 10em;
+    list-style-type: none;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#menu a:hover  {
+    background-color: white;
+}
+
+#menu li ul {
+    display: none;
+}
+
+#menu li:hover > ul {
+    display: block;
+}
+
+/* indent third-generation lists */
+#menu li li li {
+    margin-left: 1em;
+}
