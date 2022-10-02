@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title>flexTwoCol.html</title>
+  <meta charset = "UTF-8" />
+  <style type = "text/css">
+    #all {
+      
+      width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #main {
+      display: flex;
+      flex-direction: row;
+    } 
+
+    #nav {
+      flex: 1;
+      background-color: #eeeeee;
+    }
+    
+    #article {
+      flex: 3;
+      background-color: #ddddff;
+    }
+    
+    header, footer {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id = "all">
+    <header>
+      <hgroup>
+        <h1>Two Column Demo</h1>
+        <h2>Using flexbox layout</h2>
+      </hgroup>
+    </header>
+
+    <div id = "main">
+
+      <div id = "nav">
+        <h2>Navigation List</h2>
+        <ul>
+          <li><a href = "#">one</a></li>
+          <li><a href = "#">two</a></li>
+          <li><a href = "#">three</a></li>
+          <li><a href = "#">four</a></li>
+          <li><a href = "#">five</a></li>
+        </ul>
+      </div>
+
+      <div id = "article">
+        <h2>Main content</h2>
+  
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Suspendisse volutpat dignissim nunc, ut gravida urna
+          pharetra sed. Aliquam id purus id ipsum elementum tristique
+          vestibulum eu libero. Integer sem sapien, lacinia sit amet
+          vestibulum eget, tristique non quam. Donec non tellus justo. Donec
+          venenatis commodo erat nec sodales. Maecenas malesuada ullamcorper
+          laoreet. Pellentesque hendrerit tristique risus, a facilisis nulla
+          imperdiet et. Nullam mi sem, venenatis sit amet auctor sed,
+          consequat a arcu. Nullam tincidunt viverra sapien at
+          pellentesque. Sed nisl metus, pharetra quis ornare et, tempus et
+          arcu.
+        </p>
+      
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          iaculis neque non risus commodo quis imperdiet erat
+          condimentum. Sed scelerisque euismod diam a mollis. Pellentesque
+          rutrum placerat placerat. Donec lobortis ullamcorper magna id
+          porttitor. Fusce imperdiet accumsan nisi, tristique iaculis erat
+          cursus vitae. Nulla elementum pulvinar dictum. Morbi aliquam
+          sodales massa. Ut vehicula ante at tortor ultricies consequat. Nam
+          volutpat laoreet risus, quis ullamcorper neque auctor sed. Etiam
+          accumsan metus nec libero bibendum in laoreet orci volutpat. Nam
+          tincidunt lorem ac justo hendrerit a vestibulum felis
+          ullamcorper. Vivamus lorem lectus, fringilla ac porttitor in,
+          vehicula quis diam. Donec et nulla orci. Sed at nisl
+          justo. Vivamus ante ligula, accumsan a gravida et, eleifend eu
+          ipsum.
+        </p>
+      </div>
+    </div>
+    
+    <footer>
+      <h2>Andy Harris</h2>
+      <a href = "http://www.aharrisbooks.net">
+         http://www.aharrisbooks.net</a>
+    </footer>
+  </div>
+</body>
+</html>
+
