@@ -1,6 +1,6 @@
 // from if.html
 
-function checkNameIf(){
+function checkName(){
     lblOutput = document.getElementById("lblOutput");
     txtInput = document.getElementById("txtInput");
     
