@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title>logicError.html</title>
+  <meta charset = "UTF-8" />
+  <style type = "text/css">
+  </style>
+  <script type = "text/javascript">
+    function getPassword(){
+      var correct = "HTML5";
+      var guess = "";
+      while (guess == correct){
+        guess = prompt("Password?");
+      } // end while
+      alert("You may proceed");
+    } // end getPassword
+    
+  </script>
+</head>
+
+<body>
+  <h1>Logic Error Demo</h1>
+  <p>
+    This program has a deliberate error! Please use the debugger
+    to see the error message and diagnose the problem.
+  </p>
+  <p>The password is 'HTML5'</p>
+  <form action = "">
+    <fieldset>
+      <button type = "button"
+              onclick = "getPassword()">
+        guess the password
+      </button>
+    </fieldset>
+  </form>
+</body>
+</html>
