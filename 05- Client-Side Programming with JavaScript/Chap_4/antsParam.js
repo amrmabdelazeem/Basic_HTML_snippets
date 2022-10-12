@@ -1,5 +1,5 @@
 //using functions with parameters
-
+//from antsParam.html
 function makeSong(){
     //create output variable
     var output = document.getElementById("output");
