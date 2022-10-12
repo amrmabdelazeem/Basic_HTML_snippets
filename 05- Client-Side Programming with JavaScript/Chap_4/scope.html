@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en-US"> 
+
+  <head>
+    <meta charset = "UTF-8">
+    <title>scope.html</title>
+    <script type = "text/javascript">
+      //from scope.html
+      var globalVar = "I'm global!";
+      function myFunction(){
+        var localVar = "I'm local";
+        console.log(localVar);
+      }
+      myFunction();
+    </script>
+  </head>
+  <body>
+    <p>
+      This page demonstrates variable scope. It is meant to be viewed
+      in debug mode. Watch to see when globalVar and localVar are
+      defined.
+    </p>
+  </body>
+</html>
