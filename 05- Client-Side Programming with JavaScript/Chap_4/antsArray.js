@@ -9,9 +9,8 @@ function makeSong(){
     for(verseNumber =1; verseNumber < distractionList.length; verseNumber++){
         output.innerHTML += verse(verseNumber);
         output.innerHTML += chorus(verseNumber);
-    }
-    
-}
+    }//end loop
+}//end makeSong
 
 function chorus(){
     var result = "...and they all go marching down <br/>";
