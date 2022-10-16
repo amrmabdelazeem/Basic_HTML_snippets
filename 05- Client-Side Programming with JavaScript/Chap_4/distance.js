@@ -1,7 +1,7 @@
 // from distance.html
 
 //the names of the cities
-cityName = new Array["Indianapolis", "New York", "Tokyo", "London"];
+cityName = new Array("Indianapolis", "New York", "Tokyo", "London");
 
 //creating a 2-dimension array of distances
 distance = new Array(
@@ -24,3 +24,18 @@ function getCity(){
     theCity = prompt(cityMenu);
     return theCity;
 }//end getCity
+
+//creating a main function
+
+function main(){
+    var output="";
+    var from = getCity();
+    var to = getCity();
+    var result = distance[from][to];
+    output = "The distance from " +cityName[from];
+    output += " to " + cityName[to];
+    output += " is " + result + " miles.";
+    alert(output);
+}//end main
+
+main();
