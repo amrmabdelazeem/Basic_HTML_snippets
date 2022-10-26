@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>multiSelect.html</title>
+</head>
+<body>
+    <h1>Multiple Selections</h1>
+    <form action="">
+        <fieldset>
+            <label>
+                select the language(s) you know.
+                (ctrl-click to select multiple lines)
+            </label>
+            
+            <select id = "selLanguage"
+                    multiple= "multiple"
+                    size = "10">
+                <option value="XHTML">XHTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="MySQL">MySQL</option>
+                <option value="Java">Java</option>
+                <option value="VB.NET">VB.NET</option>
+                <option value="Python">Python</option>
+                <option value="Flash">Flash</option>
+                <option value="Perl">Perl</option>
+            </select>
+            
+            <button type="button"
+                    onclick = "showChoices()" />
+        </fieldset>
+    </form>
+    
+    <div id="output">
+        
+    </div>
+
+</body>
+</html>
