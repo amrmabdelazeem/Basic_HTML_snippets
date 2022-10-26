@@ -6,6 +6,18 @@
     <script type = "text/javascript"
             src = "multiSelect.js">
     </script>
+    <style type="text/css">
+        select{
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Multiple Selections</h1>
@@ -13,7 +25,7 @@
         <fieldset>
             <label>
                 select the language(s) you know.
-                (ctrl-click to select multiple lines)
+                (ctrl-click to select multiple lines):
             </label>
             
             <select id = "selLanguage"
@@ -32,7 +44,9 @@
             </select>
             
             <button type="button"
-                    onclick = "showChoices()" />
+                    onclick = "showChoices()">
+                Submit
+            </button>
         </fieldset>
     </form>
     

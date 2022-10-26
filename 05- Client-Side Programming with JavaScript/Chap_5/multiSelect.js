@@ -12,11 +12,11 @@ function showChoices() {
     
     for(i = 0; i<selLanguage.length; i++){
         //examine current option
-        currentOption = selLanguage(i);
+        currentOption = selLanguage[i];
         
         //print it if it has been selected
         if (currentOption.selected == true){
-            result += "<li>" + currentOption + "<\/li> \n";
+            result += " <li>" + currentOption.value + "<\/li> \n";
         }// end if
     }//end for loop
     
