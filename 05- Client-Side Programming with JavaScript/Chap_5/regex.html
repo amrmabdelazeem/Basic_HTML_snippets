@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>regex.html</title>
+    <script type="text/javascript"
+            src = "regex.js">
+    </script>
+    <link rel="stylesheet"
+          type="text/css"
+          href="regex.css" />
 </head>
 <body>
     <h1>Regular Experssion Tester</h1>
@@ -10,20 +16,18 @@
         <fieldset>
             <label>regular expression</label>
             <input type="text"
-                   id="txtReg"
-                   value="" />
+                   id="txtRegex"/>
             <label>working text</label>
             <input type="text"
-                   id="txtWork"
-                   value="" />
+                   id="txtWork"/>
             <button type="button"
-                    onclick="matchCheck()">
+                    onclick="testRegex()">
                 check for match
             </button>
             
-            <div id="output">
+            <p id="output">
                 sample output
-            </div>
+            </p>
         </fieldset>
     </form>
 </body>
