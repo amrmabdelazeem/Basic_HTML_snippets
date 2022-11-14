@@ -1,0 +1,16 @@
+label {
+  display: block;
+  text-align: center;
+}
+
+select{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
